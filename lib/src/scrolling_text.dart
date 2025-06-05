@@ -44,7 +44,7 @@ class ScrollingText extends StatelessWidget {
             style: style,
             delayBefore: Duration(milliseconds: restTime),
             pauseBetween: Duration(milliseconds: restTime),
-            velocity: Velocity(pixelsPerSecond: Offset(speed * 10.0, 0)),
+            velocity: Velocity(pixelsPerSecond: Offset(speed * 4.0, 0)),
             mode: AutoScrollTextMode.bouncing,
           );
   }

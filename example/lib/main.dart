@@ -44,9 +44,9 @@ class DemoPage extends StatelessWidget {
             _buildExampleCard(
               context,
               'News Ticker',
-              'Breaking News: Flutter 3.0 released with amazing new features...',
+              'Breaking News: Flutter 3 released with amazing features',
               Axis.horizontal,
-              speed: 3,
+              speed: 10,
               restTime: 1500,
               style: const TextStyle(
                 color: Colors.white,
@@ -60,7 +60,7 @@ class DemoPage extends StatelessWidget {
               'Fast Scrolling',
               'This is a fast scrolling text example... A very long text that will scroll vertically.',
               Axis.horizontal,
-              speed: 10,
+              speed: 30,
               restTime: 500,
               style: const TextStyle(
                 color: Colors.white,
